@@ -5,29 +5,29 @@ body{
 }
 .fs-9{
 	font-size: 9px;
-} 
+}
 .fs-12{
 	font-size: 12px;
-} 
+}
 .fs-13{
 	font-size: 13px;
-} 
+}
 .fs-15{
 	font-size: 15px;
-} 
+}
 .fs-19{
 	font-size: 19px;
-} 
+}
 .fs-21{
 	font-size: 20px;
 	line-height: 30px;
-} 
+}
 .fs-32{
 	font-size: 32px;
-} 
+}
 .fs-72{
 	font-size: 50px;
-} 
+}
 .titulo{
 	line-height: 65px;
 	padding: 0 0.5em;
@@ -54,7 +54,7 @@ img.fondo {
 	left: 2em;
 	right: 2em;
 	top:0;
-} 
+}
 .carousel-indicators .active{
 	background-color: #ffd220;
 }
@@ -131,13 +131,14 @@ form select{
 .logo_upch{
  		float: left;
  		right: 10%;
- 	}	
+ 	}
 
 @media (max-width: 576px)
 {
 	.fs-72 {
     font-size: 30px !important;
 	}
+
 
 	.fs-21 {
     font-size: 16px;
@@ -188,4 +189,17 @@ form select{
 	padding: 1em 2.2em 1em 2.2em;
 	}
 
+}
+
+@media (max-width: 320px)
+{
+	.fs-72 {
+    font-size: 24px !important;
+	}
+
+
+	.fs-21 {
+    font-size: 12px;
+    line-height: 20px;
+	}
 }

@@ -189,6 +189,11 @@ form select{
 	padding: 1em 2.2em 1em 2.2em;
 	}
 
+	.msj_gracias{
+		font-size:32px;
+		line-height: 32px;
+	}
+
 }
 
 @media (max-width: 360px)
@@ -203,8 +208,8 @@ form select{
 	}
 
 	.titulo {
-    line-height: 20px;
+    line-height: 30px;
     padding: 0 0.5em;
 	}
-	
+
 }

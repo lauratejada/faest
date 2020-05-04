@@ -201,4 +201,9 @@ form select{
     font-size: 16px;
     line-height: 16px;
 	}
+
+	.titulo {
+    line-height: 20px;
+    padding: 0 0.5em;
+	}
 }

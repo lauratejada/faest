@@ -72,7 +72,7 @@ fbq('track', 'PageView');
               </div>
             </div>
           </div>
-          <div class="contenedor">
+          <div class="contenedor"> 
 
             <div class="fs-72 titulo text-left d-sm-block">
               <span style="color: #ffffff;background-color: rgba(0,0,205,0.5);padding-left: 10px;padding-right: 10px;">Curso Libre Online- </span><br>

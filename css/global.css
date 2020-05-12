@@ -16,7 +16,7 @@ body{
 	font-size: 15px;
 }
 .fs-19{
-	font-size: 19px;
+	font-size: 40px;
 }
 .fs-21{
 	font-size: 20px;
@@ -136,9 +136,14 @@ form select{
 @media (max-width: 576px)
 {
 	.fs-72 {
-    font-size: 30px;
+    font-size: 25px;
 	}
 
+
+	.fs-19{
+	font-size: 20px;
+	line-height: 20px;
+	}
 
 	.fs-21 {
     font-size: 16px;
@@ -150,11 +155,11 @@ form select{
 	}
 
 	.contenedor{
-	top: 12%;
+	top: 6%;
 	}
 
 	.titulo {
-    line-height: 40px;
+    line-height: 30px;
     padding: 0 0.5em;
 	}
 
@@ -198,8 +203,19 @@ form select{
 
 @media (max-width: 360px)
 {
+
+	.cabecera_logos{
+	padding: 0.5rem 1rem;
+	}	
+
 	.fs-72 {
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 28px;
+	}
+
+	.fs-19{
+	font-size: 20px;
+	line-height: 20px;
 	}
 
 	.fs-21 {
@@ -208,7 +224,7 @@ form select{
 	}
 
 	.titulo {
-    line-height: 30px;
+    line-height: 28px;
     padding: 0 0.5em;
 	}
 

@@ -16,7 +16,7 @@ body{
 	font-size: 15px;
 }
 .fs-19{
-	font-size: 40px;
+	font-size: 19px;
 }
 .fs-21{
 	font-size: 20px;
@@ -136,14 +136,9 @@ form select{
 @media (max-width: 576px)
 {
 	.fs-72 {
-    font-size: 25px;
+    font-size: 30px;
 	}
 
-
-	.fs-19{
-	font-size: 20px;
-	line-height: 20px;
-	}
 
 	.fs-21 {
     font-size: 16px;
@@ -155,11 +150,11 @@ form select{
 	}
 
 	.contenedor{
-	top: 6%;
+	top: 12%;
 	}
 
 	.titulo {
-    line-height: 30px;
+    line-height: 40px;
     padding: 0 0.5em;
 	}
 
@@ -201,21 +196,10 @@ form select{
 
 }
 
-@media (max-width: 360px)
+@media (max-width: 375px)
 {
-
-	.cabecera_logos{
-	padding: 0.5rem 1rem;
-	}	
-
 	.fs-72 {
-    font-size: 22px;
-    line-height: 28px;
-	}
-
-	.fs-19{
-	font-size: 20px;
-	line-height: 20px;
+    font-size: 20px;
 	}
 
 	.fs-21 {
@@ -224,8 +208,17 @@ form select{
 	}
 
 	.titulo {
-    line-height: 28px;
+    line-height: 27px;
     padding: 0 0.5em;
+	}
+
+	.contenedor {
+	    top: 6%;
+	}
+
+	.msj_gracias{
+		font-size:20px;
+		line-height: 20px;
 	}
 
 }
